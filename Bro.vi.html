@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Bro.vi.Vikkky Твои брови — моя гордость</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<style type="text/css">
+		html, body {
+			height: 100%;
+			font-family: bebas neue;
+		}
+		h4 {
+			color: darkgray;
+		}
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		</style>
+		<script>
+function time () {
+  date = new Date(),
+  h = date.getHours(),
+  m = date.getMinutes(),
+  s = date.getSeconds(),
+
+  h = (h < 10) ? '0' + h : h,
+  m = (m < 10) ? '0' + m : m,
+  s = (s < 10) ? '0' + s : s;
+
+  hours  = document.getElementById("id_H");
+  minutes = document.getElementById("id_M");
+  seconds = document.getElementById("id_S");
+            
+  hours.innerHTML = h;   
+  minutes.innerHTML = m;
+  seconds.innerHTML = s;
+};
+    
+</script>
+<script>setInterval(time, 1000);</script>
+</body>
+</html>
+
+</head>
+<body>
+      <h1>Bro.vi.Vikkky</h1>
+      <h2> Твои брови — моя гордость</h2>
+      <h3><div id="time" style="font-weight: bold;"> 
+<span id="id_H" style="color: black;"></span> : <span id="id_M" style="color: limegreen;"></span> : <span id="id_S" style="color:black;" ></span>    
+</div></h3>
+      <h4>Вы можете связаться со мной:</h4>
+      <div>+375 33 351 27 22</div>
+      <div>Instagram: <a href="https://www.intagram.com/Bro.vi.Vikkky" target="_blank">@Bro.vi.Vikkky</a></div>
+</body> 
+</html>
